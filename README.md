@@ -6,8 +6,8 @@ my new, clean vim setup.
 dependencies
 ------------
 * any 256 color console like `rxvt-unicode-256color` (ubuntu)
-* ack-grep (optional)
-* git (optional)
+* `ack-grep` (optional)
+* `git` (optional)
 
 
 installation
@@ -34,3 +34,8 @@ keymaps
 * `<C-P>` - paste from clipboard in paste-mode
 * `<C-J>` - formatting the current paragraph according to the current 'textwidth'
 
+
+screenshots
+-----------
+
+![screenshot 01](http://xfire.github.com/vimrc/screenshot_vim_01.png)
