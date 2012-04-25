@@ -22,7 +22,6 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Lokaltog/vim-powerline'
 
 Bundle 'swaroopch/vim-markdown'
-Bundle 'swaroopch/vim-markdown-preview'
 
 Bundle 'vim-scripts/L9.git'
 Bundle 'vim-scripts/matchit.zip'
@@ -31,12 +30,10 @@ Bundle 'vim-scripts/VimClojure'
 Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'godlygeek/tabular'
+Bundle 'tComment'
 Bundle 'mattn/zencoding-vim'
 Bundle 'Townk/vim-autoclose'
 Bundle 'mattn/gist-vim'
-Bundle 'tComment'
-Bundle 'sjl/gundo.vim'
-Bundle 'vim-scripts/desert256.vim'
 
 " settings
 set encoding=utf-8
@@ -137,6 +134,9 @@ let vimclojure#WantNailgun = 0
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 map <leader>a :Ack! 
 
+" tabular
+map <leader>t :Tabluarize /
+
 " Indent as many times as you want in visual mode without losing focus
 vnoremap < <gv
 vnoremap > >gv
@@ -149,7 +149,7 @@ imap <silent> <c-p> <esc>:set paste<CR>"*p:set nopaste<CR>li
 vnoremap * y/<C-R>"<CR> 
 vnoremap # y?<C-R>"<CR>
 
-" Formatting the current paragraph according to the current 'textwidth' with ^J (control-j):
+" Formatting the current paragraph according to the current 'textwidth'
 imap <C-J> <C-O>gqap
 nmap <C-J> gqap
 vmap <C-J> gq
