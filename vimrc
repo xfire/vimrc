@@ -84,7 +84,7 @@ set scrolloff=5                   " Keep 5 lines (top/bottom) for scope
 set shortmess=atI                 " shortens messages to avoid 'press a key' prompt 
 set nobackup                      " don't make a backup before overwriting a file.
 set nowritebackup                 " and again.
-set directory=/tmp                " keep swap files in one location
+set directory=.                   " keep swap files in one location
 set timeoutlen=500
 
 set laststatus=2                  " show the status line all the time
