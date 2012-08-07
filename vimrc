@@ -97,8 +97,19 @@ set pastetoggle=<F12>
 
 let mapleader=","
 
-" powerline  -- ubuntu package rxvt-unicode-256color required
-let g:Powerline_symbols = 'unicode'
+" GUI options
+if has("gui_running")
+  set guioptions=egrLt
+  if has("gui_win32")
+    set gfn=Consolas:h10:cANSI
+    set lines=50
+    set columns=200
+    let g:Powerline_symbols = 'compatible'
+  endif
+else
+  " powerline  -- ubuntu package rxvt-unicode-256color required
+  let g:Powerline_symbols = 'unicode'
+endif
 
 " NERDTree
 let NERDTreeShowBookmarks = 0
