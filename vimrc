@@ -34,6 +34,7 @@ Bundle 'tComment'
 Bundle 'mattn/zencoding-vim'
 Bundle 'Townk/vim-autoclose'
 Bundle 'mattn/gist-vim'
+Bundle 'AutoComplPop'
 
 " settings
 set encoding=utf-8
