@@ -85,7 +85,7 @@ set scrolloff=5                   " Keep 5 lines (top/bottom) for scope
 set shortmess=atI                 " shortens messages to avoid 'press a key' prompt 
 set nobackup                      " don't make a backup before overwriting a file.
 set nowritebackup                 " and again.
-set directory=.                   " keep swap files in one location
+set directory=.                   " swap files besides the original
 set timeoutlen=500
 
 set laststatus=2                  " show the status line all the time
@@ -109,7 +109,7 @@ if has("gui_running")
   endif
 else
   " powerline  -- ubuntu package rxvt-unicode-256color required
-  let g:Powerline_symbols = 'unicode'
+  let g:Powerline_symbols = 'compatible'
 endif
 
 " NERDTree
@@ -172,4 +172,14 @@ map <silent> <F2> <ESC>:bnext<CR>
 imap <silent> <F1> <ESC>:bprev<CR>
 imap <silent> <F2> <ESC>:bnext<CR>
 
+" disable highlighting temporary with space
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+" move lines up or down
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
 
