@@ -112,6 +112,10 @@ else
   let g:Powerline_symbols = 'compatible'
 endif
 
+" XML syntax folding
+let g:xml_syntax_folding=1
+au FileType xml setlocal foldmethod=syntax
+
 " NERDTree
 let NERDTreeShowBookmarks = 0
 let NERDChristmasTree = 1
