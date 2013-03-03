@@ -69,6 +69,7 @@ set ignorecase                    " case-insensitive searching.
 set smartcase                     " but case-sensitive if expression contains a capital letter.
 set smartindent                   " smartindent 
 set magic                         " extended regex
+set viminfo^=h                    " disable highlighting on start
 
 set foldmethod=indent             " fold based on indent
 set foldnestmax=3                 " deepest fold is 3 levels

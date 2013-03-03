@@ -33,6 +33,7 @@ keymaps
 * `//` - (un-)comment with TComment
 * `<C-P>` - paste from clipboard in paste-mode
 * `<C-J>` - formatting the current paragraph according to the current 'textwidth'
+* `<Space>` - in normal mode temporary disable highlight search
 
 
 screenshots
