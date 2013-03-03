@@ -18,9 +18,6 @@ Bundle 'scrooloose/syntastic'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Lokaltog/vim-powerline'
 
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'Lokaltog/vim-powerline'
-
 Bundle 'swaroopch/vim-markdown'
 
 Bundle 'vim-scripts/L9.git'
