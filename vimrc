@@ -26,6 +26,7 @@ Bundle 'swaroopch/vim-markdown'
 Bundle 'vim-scripts/L9.git'
 Bundle 'vim-scripts/matchit.zip'
 Bundle 'vim-scripts/VimClojure'
+Bundle 'vim-scripts/occur.vim'
 
 Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
