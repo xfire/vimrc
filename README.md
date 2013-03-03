@@ -34,6 +34,8 @@ keymaps
 * `<C-P>` - paste from clipboard in paste-mode
 * `<C-J>` - formatting the current paragraph according to the current 'textwidth'
 * `<Space>` - in normal mode temporary disable highlight search
+* `,k` - move line up (modes: normal, visual, insert)
+* `,j` - move line down (modes: normal, visual, insert)
 
 
 screenshots
