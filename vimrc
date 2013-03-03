@@ -33,6 +33,7 @@ Bundle 'mattn/zencoding-vim'
 Bundle 'Townk/vim-autoclose'
 Bundle 'mattn/gist-vim'
 Bundle 'AutoComplPop'
+Bundle 'Rip-Rip/clang_complete'
 
 " settings
 set encoding=utf-8
