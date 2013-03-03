@@ -37,6 +37,8 @@ keymaps
 * `,k` - move line up (modes: normal, visual, insert)
 * `,j` - move line down (modes: normal, visual, insert)
 
+* `,C` - Syntastic check
+* `,E` - show Syntastic error window
 
 screenshots
 -----------
