@@ -32,8 +32,8 @@ Bundle 'tComment'
 Bundle 'mattn/zencoding-vim'
 Bundle 'Townk/vim-autoclose'
 Bundle 'mattn/gist-vim'
-Bundle 'AutoComplPop'
 Bundle 'Rip-Rip/clang_complete'
+Bundle 'Shougo/neocomplcache'
 
 " settings
 set encoding=utf-8
@@ -196,3 +196,4 @@ inoremap <leader>k <Esc>:m .-2<CR>==gi
 vnoremap <leader>j :m '>+1<CR>gv=gv
 vnoremap <leader>k :m '<-2<CR>gv=gv
 
+source ~/.vim/neocomplcache
