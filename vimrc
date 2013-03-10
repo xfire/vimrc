@@ -33,6 +33,7 @@ Bundle 'mattn/zencoding-vim'
 Bundle 'Townk/vim-autoclose'
 Bundle 'mattn/gist-vim'
 Bundle 'Rip-Rip/clang_complete'
+Bundle 'Twinside/vim-haskellFold'
 Bundle 'Shougo/neocomplcache'
 
 " settings
