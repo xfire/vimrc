@@ -34,6 +34,7 @@ Bundle 'Townk/vim-autoclose'
 Bundle 'mattn/gist-vim'
 Bundle 'AutoComplPop'
 Bundle 'Rip-Rip/clang_complete'
+Bundle 'Twinside/vim-haskellFold'
 
 " settings
 set encoding=utf-8
