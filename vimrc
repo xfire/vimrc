@@ -29,12 +29,11 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'tComment'
-Bundle 'mattn/zencoding-vim'
+Bundle 'mattn/emmet-vim'
 Bundle 'Townk/vim-autoclose'
 Bundle 'mattn/gist-vim'
-Bundle 'AutoComplPop'
-Bundle 'Rip-Rip/clang_complete'
 Bundle 'Twinside/vim-haskellFold'
+Bundle 'Valloric/YouCompleteMe'
 
 " settings
 set encoding=utf-8
